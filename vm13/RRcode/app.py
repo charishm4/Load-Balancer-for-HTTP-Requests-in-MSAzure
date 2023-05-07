@@ -14,6 +14,7 @@ def get_servers():
 
 app = Flask(__name__)
 
+# Enter the Ip adrress of your VM
 ip1 = "http://104.41.211.213:8080"
 ip2 = "http://40.85.126.76:8080"
 
