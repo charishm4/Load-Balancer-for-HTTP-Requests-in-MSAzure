@@ -14,7 +14,7 @@ will answer according to the selected load balancing scheme(round robin(RR), wei
 • The load balancer receives all HTTPS requests from the proxy and forwards them to the appropriate web server according to the applied balancing scheme. \
 • The load balancer forms a “queue” for each web server. 
 
-**Usage Example:**
+**Usage Example:** \
 Build docker image for respective load balancing technique on server 1:
 docker build -t rr .
 docker run -p 8080:8080 rr
