@@ -16,8 +16,7 @@ will answer according to the selected load balancing scheme(round robin(RR), wei
 
 **Usage Example:** \
 Build docker image for respective load balancing technique on server 1: \
-docker build -t rr . 
-<\br>
+docker build -t rr . \
 docker run -p 8080:8080 rr 
 
 Build docker image for the Python app on server 2 and server 3: \
