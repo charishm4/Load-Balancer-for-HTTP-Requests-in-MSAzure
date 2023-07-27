@@ -7,7 +7,7 @@
 will answer according to the selected load balancing scheme(round robin(RR), weighted round robin(WRR), load sensitivity(LS)). \
 • There is a proxy (server 1) on the ingress. 
 
-**Web servers:**
+**Web servers:** \
 • Each web server provides a similar webpage but the response indicates which server is used. \ 
 • The web server will send spontaneously updates about their load status to the load balancer. \
 • The load balancer implements have different adaptation strategies: RR/WRR/LS. \
