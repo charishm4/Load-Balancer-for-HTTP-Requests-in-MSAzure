@@ -21,4 +21,4 @@ docker run -p 8080:8080 rr \
 
 Build docker image for the Python app on server 2 and server 3: \
 docker build -t pymyweb . \
-docker run -p 8080:8080 pymyweb \
+docker run -p 8080:8080 pymyweb 
